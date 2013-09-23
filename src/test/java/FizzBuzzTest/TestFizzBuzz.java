@@ -46,5 +46,17 @@ public class TestFizzBuzz {
 	public void generaFizzBuzzPara15(){
 		assertEquals("FizzBuzz",fb.generar(15));
 	}
+	
+	@Test
+	public void generaFizzBuzzParaMultiploDe3y5(){
+		assertEquals("FizzBuzz",fb.generar(30));
+		assertEquals("FizzBuzz", fb.generar(60));
+	}
+	
+	@Test
+	public void generaElNumeroSiNoEsMultiploDe3Ni5(){
+		assertEquals("7", fb.generar(7));
+		assertEquals("8", fb.generar(8));
+	}
 
 }
