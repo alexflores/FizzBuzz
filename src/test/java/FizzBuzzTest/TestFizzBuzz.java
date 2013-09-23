@@ -58,5 +58,17 @@ public class TestFizzBuzz {
 		assertEquals("7", fb.generar(7));
 		assertEquals("8", fb.generar(8));
 	}
+	
+	@Test
+	public void imprimeUnaSecuenciaDeNumerosConReglasFizzBuzz(){
+		String esperado =  "1\n"+
+			    			"2\n"+
+			    			"Fizz\n"+
+			    			"4\n"+
+			    			"Buzz\n" +
+			    			"Fizz\n";
+		assertEquals(esperado, fb.imprimir(6));
+			
+	}
 
 }
