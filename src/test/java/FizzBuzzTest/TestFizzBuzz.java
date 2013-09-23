@@ -25,5 +25,16 @@ public class TestFizzBuzz {
 	{
 		assertEquals("4",fb.generar(4));
 	}
+	
+	@Test
+	public void generaFizzSiEsMultiploDe3()
+	{
+		assertEquals("Fizz",fb.generar(6));
+	}
+	
+	@Test 
+	public void generaBuzzSiNumero5(){
+		assertEquals("Buzz",fb.generar(5));
+	}
 
 }
