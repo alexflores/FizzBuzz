@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class FizzBuzzServlet extends HttpServlet {
-    FizzBuzztdd fb = new FizzBuzztdd();
+	FizzBuzztdd fb = new FizzBuzztdd();
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
